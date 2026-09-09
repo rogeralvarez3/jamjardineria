@@ -78,6 +78,7 @@
             <span class="text-gray-600">|</span>
             <a :href="`https://wa.me/50683094039`" class="hover:text-[#4CAF50] transition-colors">8309-4039</a>
           </div>
+          <a href="mailto:atencion@jamjardineria.com" class="text-gray-300 hover:text-[#4CAF50] transition-colors mt-1">atencion@jamjardineria.com</a>
         </div>
       </div>
     </footer>
