@@ -1,7 +1,8 @@
-const fs = require('fs');
-const http = require('http');
-const https = require('https');
-const express = require('express'); // Usando express como ejemplo
+import fs from 'fs';   
+import http from 'http';
+import https from 'https';
+import express from 'express';
+
 
 const app = express();
 
