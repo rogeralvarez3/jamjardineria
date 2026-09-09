@@ -6,9 +6,7 @@ import express from 'express';
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('¡Conexión segura y válida para internet!');
-});
+app.use(express.static('dist'));
 
 // 1. Cargar los certificados de Let's Encrypt
 // Reemplaza "tudominio.com" por tu dominio real
