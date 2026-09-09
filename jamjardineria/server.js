@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
 
 // 1. Cargar los certificados de Let's Encrypt
 // Reemplaza "tudominio.com" por tu dominio real
-const privateKey = fs.readFileSync('/etc/letsencrypt/live/tudominio.com/privkey.pem', 'utf8');
-const certificate = fs.readFileSync('/etc/letsencrypt/live/tudominio.com/fullchain.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/jamjardineria.com/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/jamjardineria.com/fullchain.pem', 'utf8');
 
 const credentials = { key: privateKey, cert: certificate };
 
